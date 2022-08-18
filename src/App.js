@@ -1,9 +1,16 @@
 import './App.css'
-
+import Maindash from './components/maindash/maindash';
+import RightSide from './components/RightSide/Rightside';
+import Sidebar from './components/sidebar/sidebar.jsx'
 function App() {
   return (
     <div className="App">
-        Subscribe Zainkeepscode
+        <div className="AppGlass">
+          <Sidebar/>
+          <Maindash/>
+          <RightSide/>
+
+        </div>
     </div>
   );
 }
